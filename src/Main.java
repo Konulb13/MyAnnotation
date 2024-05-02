@@ -18,6 +18,6 @@ public class Main {
 class MyAnnClass{
     @MyAnnotation(a = 42,b = 38)
     public void annMethod (int a,int b){
-        System.out.println( "a = " + a +"b = " + b );
+        System.out.println( "a = " + a +"\n" +"b = " + b );
     }
  }
